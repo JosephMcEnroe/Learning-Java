@@ -1,6 +1,6 @@
 public class java2 {
 
-    public static void Main(String[] args)
+    public static void main(String[] args)
     {
         //variables
         int currentAge;
