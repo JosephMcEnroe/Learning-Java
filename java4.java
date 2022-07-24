@@ -1,9 +1,10 @@
-import java.io.*;
-public class java3 {
-    public static void main(String[] args) throws IOException
+//Updated Version of Java3
+import java.util.Scanner;
+public class java4 {
+    public static void main(String[] args)
     {
-        BufferedReader reader = new BufferedReader(
-        new InputStreamReader(System.in));
+        Scanner scanner = new Scanner (System.in);
+   
 
         //array
         String questionsArray[] = {"What is your name?", "What is the name of your first pet?","What was your first pet?"};
@@ -17,7 +18,7 @@ public class java3 {
         for(count = 0; count<= questionsArray.length-1; count++)//LOOP PROBLEM SOLVED LETS GOO
         {  
             System.out.print(questionsArray[count]+": ");
-            String x = reader.readLine();
+            String x = scanner.next();
             bioArray[count]= x;
             System.out.print("\n");
         }
