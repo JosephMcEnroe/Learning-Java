@@ -14,15 +14,16 @@ public class java3 {
         System.out.println(bioArray.length);
         
         //Questions Loop
-        for (count= 0; count<=questionsArray.length; count++);//loop problem c
-        {   String x = "x"; 
-            System.out.println(questionsArray[count]+": ");
-            //x = reader.readLine();
-            //bioArray[count]= x;
+        for(count = 0; count<= questionsArray.length-1; count++)//loop problem c
+        {  
+            System.out.print(questionsArray[count]+": ");
+            String x = reader.readLine();
+            bioArray[count]= x;
+            System.out.print("\n");
             
         }
         
-        //System.out.println(bioArray[1]);
+        
 
 
     }
